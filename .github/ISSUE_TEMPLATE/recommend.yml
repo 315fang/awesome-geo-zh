@@ -1,0 +1,51 @@
+name: 推荐一个资源 / Recommend a resource
+description: 不会 git 也能投稿：填链接和一句话介绍，维护者帮你加进列表。
+title: "[推荐] "
+labels: ["推荐资源"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 链接
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: 名称
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: 建议放在哪一节
+      options:
+        - 学术论文
+        - 国内 AI 搜索产品与官方说明
+        - 国内 AI 爬虫与官方文档
+        - 站长平台与收录工具
+        - 技术标准与官方指南
+        - 国内法规
+        - 中文 GEO 文章与教程
+        - 观测与测量工具
+        - 社区与相关列表
+        - 不确定
+    validations:
+      required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: 一句话中立介绍
+      description: 写它是什么、有什么用，不要写广告语。
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认
+      options:
+        - label: 链接可以正常打开，不是盗版内容
+          required: true
+        - label: 不是代运营/卖课的推广页；如与我有利益关系，已在上方说明
+          required: true
