@@ -1,0 +1,46 @@
+name: 投稿你的 GEO 文章 / 实测 / Submit your GEO article
+description: 写了 GEO 相关的文章、实测或数据？发链接过来，符合标准会收进「中文 GEO 文章与教程」并署名。
+title: "[投稿] "
+labels: ["文章投稿"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 文章链接
+      description: 博客、知乎、掘金、公众号、GitHub 均可，需无需登录即可阅读。
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: 标题与作者
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 类型
+      options:
+        - 实测 / 数据观测
+        - 技术教程
+        - 论文解读
+        - 行业分析
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: 一句话介绍（它讲清了什么）
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认
+      options:
+        - label: 文章有实质内容，不是代运营/卖课的推广文
+          required: true
+        - label: 如文末有商业服务信息，已在上方说明
+          required: true
