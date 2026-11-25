@@ -7,7 +7,7 @@
 
 本列表收录面向中文 AI 搜索生态（豆包、腾讯元宝、Kimi、DeepSeek、文心 / 百度 AI 搜索、千问 / 夸克、秘塔、智谱清言等）的 GEO 资源：论文、官方文档、爬虫资料、站长平台、技术标准、教程与工具。只收能打开、有实质内容、立场中立的条目；不收代运营广告、付费墙内容和盗版资料。
 
-> **欢迎投稿：** 写过 GEO 实测、教程或论文解读？[点这里提交文章](../../issues/new?template=article.yml)，不会 git 也行；推荐别人的好资源请用[推荐资源](../../issues/new?template=recommend.yml)。被收录的作者会列在条目里。
+> **欢迎投稿：** 写过 GEO 实测、教程或论文解读？[点这里提交文章](https://github.com/315fang/awesome-geo-zh/issues/new?template=article.yml)，不会 git 也行；推荐别人的好资源请用[推荐资源](https://github.com/315fang/awesome-geo-zh/issues/new?template=recommend.yml)。被收录的作者会列在条目里。
 
 **标签说明：** 【论文】同行评审或预印本 · 【代码】论文官方代码 · 【数据集】 · 【官方】厂商 / 标准组织 / 政府的一手文档 · 【产品】产品入口 · 【工具】可直接使用的工具或开源项目 · 【标准】协议与规范 · 【法规】 · 【文章】教程与评论 · 【列表】其他资源列表
 
